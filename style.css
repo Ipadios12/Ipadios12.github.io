@@ -80,7 +80,7 @@ td {
   margin-bottom: 10px;
   padding: 5px;
   box-shadow: 0 0 0 1px rgb(0 0 0 / 15%), 0 2px 3px rgb(0 0 0 / 20%);
-  border-radius: 2px;
+  border-radius: 0.8rem;
 }
 
 #h1 {
