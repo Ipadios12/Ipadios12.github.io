@@ -72,7 +72,7 @@ td {
   padding: 5px 8px;
 }
 #top-menu-bar a:hover {
-  color: #334455;
+  color:#201f7699;
   background: #fff;
 }
 
@@ -118,4 +118,11 @@ div {
   color: #201f7699;
 }
 
+#g {
+  margin: 0;
+  padding:5px;
+  text-align: center;
+  background-color: #201f7699;
+  color: #fff;
+}
 
