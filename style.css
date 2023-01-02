@@ -129,3 +129,8 @@ div {
 #subscriber {
   background: rgb(241, 241, 241) ;
 }
+ a {
+  text-decoration: none;
+  text-align: center;
+  color: white  ;
+ }
