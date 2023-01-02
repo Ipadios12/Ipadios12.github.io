@@ -29,11 +29,11 @@ td {
 }
 
 #subscriberEmail {
-  background: yellow;
+  background: rgb(241, 241, 241);
 }
 
 #job-title {
-  color: #334455;
+  color: #070707;
   margin: 5px 0;
   font-weight: bold;
   font-size: 1.2em;
@@ -56,7 +56,7 @@ td {
   margin: 0;
   padding: 0;
   text-align: center;
-  background: linear-gradient(45deg, #201f7699, transparent);
+  background: linear-gradient(45deg, #070f3b, transparent);
   color: #fff;
 }
 
@@ -72,7 +72,7 @@ td {
   padding: 5px 8px;
 }
 #top-menu-bar a:hover {
-  color:#201f7699;
+  color:#070f3b;
   background: #fff;
 }
 
@@ -91,7 +91,7 @@ td {
   display: flex;
   flex-direction:row;
   align-items: center;
-  background: linear-gradient(45deg, #201f7699, transparent);
+  background: linear-gradient(45deg, #070f3b, transparent);
 
 }
 #he {
@@ -122,7 +122,10 @@ div {
   margin: 0;
   padding:5px;
   text-align: center;
-  background: linear-gradient(45deg, #201f7699, transparent);
+  background: linear-gradient(45deg, #070f3b, transparent);
   color: #fff; 
 }
 
+#subscriber {
+  background: rgb(241, 241, 241) ;
+}
