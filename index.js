@@ -12,4 +12,6 @@ i++;
 
 skillsEl.innerHTML = skillsHTML;
 
+document.getElementById('home').style.display ='block';
+
 

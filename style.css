@@ -50,6 +50,8 @@ td {
   background: #ffffff;
   padding: 0 10px 0 10px;
   margin-bottom: 10px;
+  display: none;
+ 
 }
 
 #top-menu-bar {
