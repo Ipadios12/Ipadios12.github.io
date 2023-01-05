@@ -38,3 +38,24 @@ i++;
 
 skillsEl.innerHTML = skillsHTML;
 
+
+
+// display home
+
+function displayhome() {
+    document.getElementById("home").style.display ="block";
+    }
+    function displayskills() {
+    console.warn("trebuie sa afisam skills page");
+    document.getElementById("skills").style.display ="block";
+    }
+    
+    function displaylanguages() {
+    document.getElementById("languages").style.display ="block";
+    }
+    
+    function displayprojects() {
+    document.getElementById("projects").style.display ="block";
+    }
+    
+    displayhome();
