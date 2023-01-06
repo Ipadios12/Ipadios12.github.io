@@ -1,4 +1,3 @@
-
 html {
   height: 100%;
 }
@@ -33,7 +32,7 @@ td {
 }
 
 #job-title {
-  color: #fff;
+  color:#fff;
   margin: 5px 0;
   font-weight: bold;
   font-size: 1.2em;
@@ -44,14 +43,13 @@ td {
   color: darkblue;
 }
 
-.page {
+.page  {
   border-radius: 0.8rem;
   border: 2px solid #e0dfdc;
   background: #ffffff;
   padding: 0 10px 0 10px;
   margin-bottom: 10px;
   display: none;
-
 }
 
 #top-menu-bar {
@@ -74,13 +72,13 @@ td {
   padding: 5px 8px;
 }
 #top-menu-bar a:hover {
-  color:#070f3b;
+  color: #070f3b;
   background: #fff;
 }
 
 #side-menu > section {
   margin-bottom: 10px;
-  padding: 5px;
+  padding: 10px;
   box-shadow: 0 0 0 1px rgb(0 0 0 / 15%), 0 2px 3px rgb(0 0 0 / 20%);
   border-radius: 0.8rem;
 }
@@ -88,32 +86,30 @@ td {
 h1 {
   padding-top: 10px;
   margin: 0;
-  color: #fff; 
+  color: #fff;
 }
 
 #h {
   display: flex;
-  flex-direction:row;
+  flex-direction: row;
   align-items: center;
   background: linear-gradient(45deg, #070f3b, transparent);
-
 }
 #he {
   flex: 1;
   padding: 10px;
-} 
+}
 div {
   display: block;
 }
 
-
 #my-picture img {
-    border-radius: 50%;
-    border: 4px solid #fff;
+  border-radius: 50%;
+  border: 4px solid #fff;
 }
 
 #img {
-    width: 100px;
+  width: 100px;
 }
 
 #p {
@@ -124,29 +120,68 @@ div {
 
 #g {
   margin: 0;
-  padding:5px;
+  padding: 5px;
   text-align: center;
   background: linear-gradient(45deg, #070f3b, transparent);
-  color: #fff; 
+  color: #fff;
 }
 
 #subscriber {
-  background: rgb(241, 241, 241) ;
+  background: rgb(241, 241, 241);
 }
- a {
+a {
   text-decoration: none;
   text-align: center;
   color: white;
- }
- 
-#re {
-color: #c60b1e;
-font-size: 1rem;
 }
 
-#ro {
+#re {
+  color: #c60b1e;
+  font-size: 1rem;
+}
+
+.ro {
   font-family: sans-serif;
   margin: 0;
-  color:#424242;
+  color: #424242;
   font-size: 1rem;
+}
+
+input[type="text"] {
+  margin-bottom: 3px;
+  margin-top: 3px;
+}
+
+button[type="submit"] {
+  cursor: pointer;
+}
+
+table, th, td {
+  border: 1px solid black ;
+  border-collapse: collapse;
+  padding-top: 14px;
+  margin-bottom: 2pc;
+  padding-bottom: 14px;
+}
+
+h2 {
+  margin: 0px 0px 10px 0;
+  color: #050505
+}
+
+#languages table th {
+  border: 1px solid #0798ab ;
+  padding: 5px;
+}
+#languages table td {
+  padding: 5px;
+  border: 1px solid #0798ab ;
+  
+}
+
+th {
+  background: #d1e7ea;
+}
+td {
+  background: #fff;
 }
