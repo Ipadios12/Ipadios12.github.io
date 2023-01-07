@@ -17,7 +17,6 @@ function hideAllPages() {
     document.getElementById("skills").style.display = "none";
     document.getElementById("languages").style.display = "none";
     document.getElementById("projects").style.display = "none";
-    document.getElementById("about").style.display ="none";
   }
   
   function show(id) {
@@ -42,9 +41,9 @@ function hideAllPages() {
   }
   
 {
-    function displayabout() {
+    function displayprojects() {
         hideAllPages();
-        show("about");
+        show("projects");
     }
 }
   displayhome();

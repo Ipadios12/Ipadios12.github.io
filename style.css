@@ -83,7 +83,7 @@ td {
   margin-bottom: 10px;
   padding: 10px;
   box-shadow: 0 0 0 1px rgb(0 0 0 / 15%), 0 2px 3px rgb(0 0 0 / 20%);
-  border-radius: 0.8rem;
+  border-radius: 0.3rem;
 }
 
 h1 {
@@ -133,7 +133,7 @@ div {
 a {
   text-decoration: none;
   text-align: center;
-  color: white;
+  color: rgb(247, 241, 241);
 }
 
 #re {
@@ -196,4 +196,9 @@ h3 {
   text-align: left;
   margin: auto;
   display: block;
+}
+
+li > h3 > a {
+  color: #050505;
+  text-decoration: solid;
 }
