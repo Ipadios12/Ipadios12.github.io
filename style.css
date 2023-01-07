@@ -70,12 +70,15 @@ td {
   display: inline-block;
   color: #fff;
   padding: 5px 8px;
+  transition: 0.5s;
+  text-shadow: -1px 1px hsl(0deg 0% 70% / 0.6%);
+  transform: translate(-4px);
 }
 #top-menu-bar a:hover {
   color: #070f3b;
   background: #fff;
+  border-radius: 0.2rem ;
 }
-
 #side-menu > section {
   margin-bottom: 10px;
   padding: 10px;
