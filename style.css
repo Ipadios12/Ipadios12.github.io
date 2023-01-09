@@ -37,6 +37,7 @@ td {
   font-weight: bold;
   font-size: 1.2em;
   line-height: 4px;
+  border-radius: 0.2rem;
 }
 
 .favorite {
@@ -91,6 +92,7 @@ h1 {
   padding-top: 10px;
   margin: 0; 
   color:  rgba(255, 244, 234, 0.5);
+  border-radius: 0.2rem;
  
 }
 
@@ -202,4 +204,5 @@ h3 {
 li > h3 > a {
   color: #0aaa1f;
   text-decoration: solid;
+  border-radius: 0.2rem; 
 }
