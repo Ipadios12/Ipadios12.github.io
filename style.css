@@ -66,6 +66,9 @@ td {
   display: inline-block;
   padding: 0;
   margin: 0;
+  border-right: 1px solid;
+  color:rgba(255, 255, 255, 0.4 ); 
+  border-radius: 0.2rem;
 }
 #top-menu-bar a {
   text-decoration: none;
