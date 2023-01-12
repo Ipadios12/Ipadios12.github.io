@@ -13,16 +13,20 @@ i++;
 skillsEl.innerHTML = skillsHTML;
 
 function hideAllPages() {
-    document.getElementById("home").style.display = "none";
-    document.getElementById("skills").style.display = "none";
-    document.getElementById("languages").style.display = "none";
-    document.getElementById("projects").style.display = "none";
+    hide("home");
+    hide("skills");
+    hide("languages");
+    hide("projects");
   }
   
   function show(id) {
     document.getElementById(id).style.display = "block";
   }
   
+  function hide(id) {
+     document.getElementById(id).style.display = "none";
+  }
+
   function displayhome() {
     hideAllPages();
     show("home");
