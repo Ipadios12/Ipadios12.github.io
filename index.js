@@ -28,21 +28,9 @@ function hide(id) {
   document.getElementById(id).style.display = "none";
 }
 
-function displaylanguages() {
-  displayPage("languages");
-}
-function displayprojects() {
-  displayPage("projects");
-}
-
-{
-  function displayprojects() {
-    displayPage("projects");
-  }
-}
 function displayPage(id) {
   hideAllPages();
   show(id);
 }
 
-displayPage('home');
+displayPage("home");
