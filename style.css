@@ -32,7 +32,7 @@ td {
 }
 
 #job-title {
-  color:  rgba(255, 255, 255, 0.4);
+  color: rgba(255, 255, 255, 0.4);
   margin: 5px 0;
   font-weight: bold;
   font-size: 1.2em;
@@ -45,7 +45,7 @@ td {
   color: darkblue;
 }
 
-.page  {
+.page {
   border-radius: 0.8rem;
   border: 2px solid #e0dfdc;
   background: #ffffff;
@@ -67,7 +67,7 @@ td {
   padding: 0;
   margin: 0;
   border-right: 1px solid;
-  color:rgba(255, 255, 255, 0.4 ); 
+  color: rgba(255, 255, 255, 0.4);
   border-radius: 0.2rem;
 }
 #top-menu-bar a {
@@ -82,7 +82,7 @@ td {
 #top-menu-bar a:hover {
   color: #070f3b;
   background: #fff;
-  border-radius: 0.2rem ;
+  border-radius: 0.2rem;
 }
 #side-menu > section {
   margin-bottom: 10px;
@@ -93,10 +93,9 @@ td {
 
 h1 {
   padding-top: 10px;
-  margin: 0; 
-  color:  rgba(255, 244, 234, 0.5);
+  margin: 0;
+  color: rgba(255, 244, 234, 0.5);
   border-radius: 0.2rem;
- 
 }
 
 #h {
@@ -116,19 +115,18 @@ div {
 #my-picture img {
   border-radius: 50%;
   border: 4px solid;
-  color: rgba(255, 255, 255, 0.5); 
+  color: rgba(255, 255, 255, 0.5);
 }
 
 #img {
   width: 100px;
 }
 
-
 #g {
   margin: 0;
-  padding:6px;
+  padding: 6px;
   text-align: center;
-  background:rgba(1, 4, 34, 0.26); 
+  background: rgba(1, 4, 34, 0.26);
   color: white;
   justify-content: center;
 }
@@ -163,8 +161,10 @@ button[type="submit"] {
   cursor: pointer;
 }
 
-table, th, td {
-  border: 1px solid black ;
+table,
+th,
+td {
+  border: 1px solid black;
   border-collapse: collapse;
   padding-top: 14px;
   margin-bottom: 2pc;
@@ -178,17 +178,16 @@ h2 {
 }
 
 #languages table th {
-  border: 1px solid #020724 ;
+  border: 1px solid #020724;
   padding: 5px;
 }
 #languages table td {
   padding: 5px;
   border: 1px solid #020724;
-  
 }
 
 th {
-  background:rgba(1, 4, 34, 0.26);
+  background: rgba(1, 4, 34, 0.26);
 }
 td {
   background: #fff;
@@ -207,5 +206,21 @@ h3 {
 li > h3 > a {
   color: #0aaa1f;
   text-decoration: solid;
-  border-radius: 0.2rem; 
+  border-radius: 0.2rem;
+}
+
+#skills :first-child {
+  color: blue;
+}
+#skills :nth-of-type(2) {
+  color: #c60b1e;
+}
+
+
+#skills :nth-of-type(3) {
+  color: #d9e717;
+}
+
+#skills :nth-of-type(4) {
+  color: #0c9e72;
 }
