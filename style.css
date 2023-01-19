@@ -216,11 +216,17 @@ li > h3 > a {
   color: #c60b1e;
 }
 
-
 #skills :nth-of-type(3) {
   color: #d9e717;
 }
 
 #skills :nth-of-type(4) {
   color: #0c9e72;
+}
+
+#skills-list li {
+  font-weight: bold;
+}
+#skills-list span {
+  font-weight: 200;
 }
