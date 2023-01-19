@@ -6,6 +6,7 @@ var skills = [
   { name: "JS", endorcements: 4 },
   { name: "Drive", endorcements: 2 },
 ];
+
 //var skills = [["HTML", 5], ["CSS", 3], "JS", "Drive"];
 // var endorcements = [5, 6, 5, 1];
 
