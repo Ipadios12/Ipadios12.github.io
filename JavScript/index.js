@@ -47,5 +47,5 @@ function initMenu() {
     });
 }
 
-displayPage("skills");
+displayPage("home");
 initMenu();
