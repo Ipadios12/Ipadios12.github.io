@@ -4,23 +4,21 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>valentin constantinescu</title>
+    <title>Valentin Constantinescu</title>
     <link rel="stylesheet" href="/CSS/style.css" />
     <link rel="icon" type="image/jpg" href="/Photo/iarna-1.jpg" />
   </head>
   <body>
     <header>
-      <div id="h">
-        <div id="my-picture">
-          <img
-            src="/Photo/iarna-1.jpg"
-            width="100"
-            style="color: transparent"
-          />
+      <div id="header-wrapper">
+        <div>
+          <img src="/Photo/iarna-1.jpg" style="color: transparent" />
         </div>
-        <div id="he">
+        <div id="header-info">
           <h1>Valentin Constantinescu</h1>
-          <h1 id="job-title">Student IT</h1>
+          <h2>
+            <a href="https://fasttrackit.org/" target="_blank">Student IT </a>
+          </h2>
         </div>
       </div>
       <ul id="top-menu-bar">
@@ -35,55 +33,66 @@
     <section id="content">
       <div id="side-menu">
         <section>
-          <form action="">
-            <div>
-              <label for="subscriberEmail">Email</label>
+          <h2>Contact Form</h2>
+          <form action id="sectione-left-menu">
+            <div id="Email">
+              <label for="e">Email: </label>
               <input
                 type="email"
+                id="e"
+                name="e,"
                 required
-                name="email"
-                id="subscriberEmail"
-                placeholder="your@email.com"
+                placeholder="example@yahoo.com"
               />
             </div>
-            <div>
-              <label for="subscriber">Name</label>
+            <div id="UserName">
+              <label for="n"> Name: </label>
               <input
                 type="text"
+                id="Name"
+                name="na"
                 required
-                name="nume"
-                id="subscriber"
                 placeholder="Full Name"
               />
             </div>
-            <div class="enter">
-              <button type="submit">Subscribe</button>
+
+            <div id="Contact-Us">
+              <button>Contact us</button>
             </div>
           </form>
         </section>
-      </div>
 
-      <section>
-        <iframe
-          src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d22092.929707466916!2d21.292646400000002!3d46.198195399999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2sro!4v1673890699855!5m2!1ses!2sro"
-          width="450"
-          height="250"
-          style="border: 0"
-          allowfullscreen=""
-          loading="lazy"
-          referrerpolicy="no-referrer-when-downgrade"
-        ></iframe>
-      </section>
+        <section id="map">
+          <iframe
+            id="map"
+            src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d22092.929707466916!2d21.292646400000002!3d46.198195399999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2sro!4v1673890699855!5m2!1ses!2sro"
+            width="450"
+            height="250"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </section>
+      </div>
 
       <div id="main">
         <div id="home" class="page">
           <div id="re">
+            <!-- ( id schimba) -->
             <h3>
               Luz verde a una fotovoltaica de 250,08 MW, más 100 MW de
               almacenamiento para hibridar, el mayor parque eólico de España
             </h3>
-            <img style="float: right" src="ibereolica.png" width="300px" />
+            <img
+              style="float: right"
+              src="/Photo/ibereolica.png"
+              width="300px"
+            />
+            <!-- ( style in css) -->
+
             <div style="clear: right"></div>
+            <!-- ( style in css) -->
             <div class="ro">
               <p>
                 Publica hoy el anuncio del proyecto de la planta híbrida
@@ -98,51 +107,49 @@
           <h2>Skills</h2>
           <ul id="skills-list"></ul>
         </div>
-      </div>
 
-      <div id="languages" class="page">
-        <h2>Languages</h2>
-        <table style="width: 60%">
-          <tr>
-            <th>Language</th>
-            <th>Level</th>
-          </tr>
-          <tr>
-            <td>Romanian</td>
-            <td>Native</td>
-          </tr>
-          <tr>
-            <td>English</td>
-            <td>Beginner</td>
-          </tr>
-          <tr>
-            <td>Spanish</td>
-            <td>Fluent</td>
-          </tr>
-        </table>
-      </div>
+        <div id="languages" class="page">
+          <h2>Languages</h2>
+          <table style="width: 60%">
+            <!-- ( style in css) -->
+            <tr>
+              <th>Language</th>
+              <th>Level</th>
+            </tr>
+            <tr>
+              <td>Romanian</td>
+              <td>Native</td>
+            </tr>
+            <tr>
+              <td>English</td>
+              <td>Beginner</td>
+            </tr>
+            <tr>
+              <td>Spanish</td>
+              <td>Fluent</td>
+            </tr>
+          </table>
+        </div>
 
-      <div id="projects" class="page">
-        <h2>Projects</h2>
-        <ul>
-          <li>
-            <a href="https://github.com/Ipadios12/Ipadios12.github.io"
-              >Github</a
-            >
-          </li>
-        </ul>
-      </div>
-      <div id="rubik" class="page">
-<<<<<<< HEAD
-        <h2>Rubik....</h2>
-=======
- <h2>Rubik....</h2>
->>>>>>> 07cae8644f72854f57ff4ba583e5119528db8d3a
+        <div id="projects" class="page">
+          <h2>Projects</h2>
+          <ul>
+            <li>
+              <a href="https://github.com/Ipadios12/Ipadios12.github.io"
+                >Github</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div id="rubik" class="page">
+          <h2>Rubik....</h2>
+        </div>
       </div>
     </section>
     <footer>
       <div id="g">
         <img src="/Photo/github.png" width="13" />
+        <!--( style in css)-->
         <a
           target="_blank"
           href="https://github.com/Ipadios12/Ipadios12.github.io"
@@ -150,6 +157,6 @@
         >
       </div>
     </footer>
-    <script src="index.js"></script>
+    <script src="/JavScript/index.js"></script>
   </body>
 </html>

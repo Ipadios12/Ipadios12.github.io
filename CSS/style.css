@@ -10,6 +10,38 @@ body {
   flex-direction: column;
 }
 
+/* Header */
+#header-wrapper {
+  border: 2px solid;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background: linear-gradient(45deg, #020724, transparent);
+}
+
+#header-wrapper img {
+  border: 2px solid white;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  margin: 5px;
+}
+
+/*Header info*/
+#header-info {
+  margin: 2px;
+}
+
+#header-info h1 {
+  color: red;
+  margin: 0;
+}
+
+#header-info h2 {
+  color: black;
+  margin: 3px;
+}
+
 #content {
   flex: 1;
   display: flex;
@@ -18,7 +50,9 @@ body {
 #side-menu {
   flex: 1;
 }
+
 #main {
+  border: 2px solid;
   flex: 2;
 }
 
@@ -39,8 +73,7 @@ td {
   line-height: 4px;
   border-radius: 0.2rem;
 }
-
-.favorite {
+*/ .favorite {
   font-weight: bold;
   color: darkblue;
 }
@@ -98,12 +131,6 @@ h1 {
   border-radius: 0.2rem;
 }
 
-#h {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  background: linear-gradient(45deg, #020724, transparent);
-}
 #he {
   flex: 1;
   padding: 10px;
@@ -223,7 +250,6 @@ li > h3 > a {
 #skills :nth-of-type(4) {
   color: #0c9e72;
 }
-
 
 #skills-list li {
   font-weight: bold;

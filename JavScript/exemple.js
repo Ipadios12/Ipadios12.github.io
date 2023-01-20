@@ -13,7 +13,7 @@ var skillsEl = document.getElementById("skills-list");
 // skillsEl.innerHTML+='<li class="favorite">CSS</li>';
 // skillsEl.innerHTML+="<li>JS</li>";
 
-var skills = ["HTML", "CSS", "JS","Drive"];
+var skills = ["HTML", "CSS", "JS", "Drive"];
 
 // skillsEl.innerHTML += "<li>"+ skills[0] + "</li>";
 // skillsEl.innerHTML += "<li>"+ skills[1] + "</li>";
@@ -31,31 +31,29 @@ var i = 0;
 // skillsHTML+= "<li>"+ skills[i] + "</li>";
 // i++;
 
-for(var i = 0; i < skills.length; ) {
-skillsHTML += "<li>" + skills[i] + "</li>";
-i++;
+for (var i = 0; i < skills.length; ) {
+  skillsHTML += "<li>" + skills[i] + "</li>";
+  i++;
 }
 
 skillsEl.innerHTML = skillsHTML;
 
-
-
 // display home
 
 function displayhome() {
-    document.getElementById("home").style.display ="block";
-    }
-    function displayskills() {
-    console.warn("trebuie sa afisam skills page");
-    document.getElementById("skills").style.display ="block";
-    }
-    
-    function displaylanguages() {
-    document.getElementById("languages").style.display ="block";
-    }
-    
-    function displayprojects() {
-    document.getElementById("projects").style.display ="block";
-    }
-    
-    displayhome();
+  document.getElementById("home").style.display = "block";
+}
+function displayskills() {
+  console.warn("trebuie sa afisam skills page");
+  document.getElementById("skills").style.display = "block";
+}
+
+function displaylanguages() {
+  document.getElementById("languages").style.display = "block";
+}
+
+function displayprojects() {
+  document.getElementById("projects").style.display = "block";
+}
+
+displayhome();
