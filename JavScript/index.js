@@ -1,4 +1,4 @@
-const r1 = fetch("/JavScript/skills.json");
+const r1 = fetch("JavScript/skills.json");
 r1.then((raspuns) => {
   const r2 = raspuns.json();
   r2.then((skills) => {
@@ -7,9 +7,10 @@ r1.then((raspuns) => {
 });
 
 function displaySkills(skills) {
-  const skillsHTML = skills.map((skill) => {
-    return `<li>${skill.name} - <span>${skill.endorcements}</span></li>`;
-  });
+  const skillsHTML = skills.map(
+    (skill) => `<li>${skill.name} - <span>${skill.endorcements}</span></li>`
+  );
+  console.warn(skillsHTML);
   const skillsEl = document.getElementById("skills-list");
   skillsEl.innerHTML = skillsHTML.join("");
 }
@@ -43,7 +44,7 @@ function initMenu() {
   });
 }
 
-displayPage("home");
+displayPage("skills");
 initMenu();
 
 const f1 = function () {
@@ -52,3 +53,4 @@ const f1 = function () {
 const f2 = () => {
   return "arrow";
 };
+const f3 = () => "raspuns";
