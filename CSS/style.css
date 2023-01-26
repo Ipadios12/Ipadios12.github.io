@@ -43,7 +43,7 @@ body {
 
 #logo .gear {
   width: 42px;
-  margin-top: -6px;
+  margin-top: -22px;
   display: block;
   font-size: 40px;
   animation-name: rotate-gear;
@@ -316,3 +316,4 @@ text-shadow: 0px 0px 9px black;
 #github a:hover {
   text-shadow: 0px 2px 9px rgb(16, 12, 78); 
 }
+
