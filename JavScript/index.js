@@ -1,23 +1,24 @@
-var skillsEl = document.getElementById("skills-list");
+const skillsEl = document.getElementById("skills-list");
 
-var skills = [
-  { name: "HTML", endorcements: 5 },
-  { name: "CSS", endorcements: 4 },
-  { name: "JS", endorcements: 4 },
-  { name: "Drive", endorcements: 2 },
-];
-
-//var skills = [["HTML", 5], ["CSS", 3], "JS", "Drive"];
-// var endorcements = [5, 6, 5, 1];
-
-var skillsHTML = skills.map(function (skill) {
-  return `<li>${skill.name} - <span>${skill.endorcements}</span></li>`;
+const r1 = fetch("/JavScript/skills.json");
+r1.then(function (raspuns) {
+  const r2 = raspuns.json();
+  r2.then(function (skills) {
+    displaySkills(skills);
+  });
 });
 
-skillsEl.innerHTML = skillsHTML.join("");
+function displaySkills(skills) {
+  const skillsHTML = skills.map(function (skill) {
+    return `<li>${skill.name} - <span>${skill.endorcements}</span></li>`;
+  });
+
+  const skillsEl = document.getElementById("skills-list");
+  skillsEl.innerHTML = skillsHTML.join("");
+}
 
 function hideAllPages() {
-  var pages = document.querySelectorAll(".page");
+  const pages = document.querySelectorAll(".page");
   pages.forEach(function (page) {
     hide(page.id);
   });
@@ -41,11 +42,14 @@ function initMenu() {
     .addEventListener("click", function (e) {
       if (e.target.matches("a")) {
         // var id = e.target.getAttribute("data-page");
-        var id = e.target.dataset.page;
+        const id = e.target.dataset.page;
         displayPage(id);
       }
     });
 }
 
 displayPage("home");
+
 initMenu();
+
+console.warn("end of file");
