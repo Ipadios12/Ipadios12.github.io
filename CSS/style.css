@@ -132,11 +132,12 @@ td {
 }
 
 .page {
+  margin-left: -162px;
   border-radius: 0.8rem;
-  border: 2px solid #e0dfdc;
+  border: 1px solid #e0dfdc;
   background: #ffffff;
   padding: 0 10px 0 10px;
-  margin-bottom: 10px;
+  margin-bottom: 0px;
   display: none;
 }
 
@@ -170,6 +171,7 @@ td {
   transform: scale(1.2, 1.2);
 }
 #side-menu > section {
+  width: 264px;
   margin-bottom: 10px;
   padding: 10px;
   box-shadow: 0 0 0 1px rgb(0 0 0 / 15%), 0 2px 3px rgb(0 0 0 / 20%);
