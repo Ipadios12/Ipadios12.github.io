@@ -18,7 +18,7 @@ html {
 body {
   margin: 0;
   min-height: 100%;
-  background-image: url(/Body\ Image/paven.png);
+  background: url(../Body\ Image/background.jpg);
   display: flex;
   flex-direction: column;
 }
